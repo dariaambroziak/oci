@@ -1425,6 +1425,7 @@
   .lp-oc-i .video {
     height: auto;
     min-height: auto;
+    padding-top: 0;
   }
 }
 
