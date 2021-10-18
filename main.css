@@ -1145,7 +1145,11 @@
 @media (max-width: 576px) {
   .lp-oc-i .technology .img14 {
     background-image: url(images/lp-oc-i/320/14.png);
-    height: 289px;
+    min-height: 289px;
+    height: 90vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -1170,7 +1174,11 @@
 @media (max-width: 576px) {
   .lp-oc-i .technology .img15 {
     background-image: url(images/lp-oc-i/320/15.png);
-    height: 289px;
+    min-height: 289px;
+    height: 70vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -1197,6 +1205,9 @@
   .lp-oc-i .technology .img18 {
     background-image: url(images/lp-oc-i/320/18.png);
     height: 256px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -1210,7 +1221,8 @@
 @media (max-width: 576px) {
   .lp-oc-i .technology .img19 {
     background-image: url(images/lp-oc-i/320/19.png);
-    height: 289px;
+    min-height: 289px;
+    height: 80vw;
   }
 }
 
@@ -1398,6 +1410,30 @@
 @media (max-width: 767px) {
   .lp-oc-i .about .px9 {
     padding: 6px;
+  }
+}
+
+.lp-oc-i .video {
+  height: 34vw;
+  max-height: 360px;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+@media (max-width: 576px) {
+  .lp-oc-i .video {
+    height: auto;
+  }
+}
+
+.lp-oc-i .video-color {
+  background-color: #CDE6D1;
+}
+
+@media (max-width: 576px) {
+  .lp-oc-i .video video {
+    width: 100%;
   }
 }
 
