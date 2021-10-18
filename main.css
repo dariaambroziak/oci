@@ -1424,6 +1424,7 @@
 @media (max-width: 576px) {
   .lp-oc-i .video {
     height: auto;
+    min-height: auto;
   }
 }
 
